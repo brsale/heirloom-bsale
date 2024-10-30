@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: example_data
+    description: files in the data/ subdirectory
+    tables:
+      - name: equipment
+        config:
+          external_location: "read_csv('./data/equipment.csv')"
+
+      - name: scientist
+        config:
+          external_location: "read_csv('./data/scientist.csv')"
+
+      - name: experiment
+        config:
+          external_location: "read_json('./data/experiment.json')"
+
+      - name: samples
+        config:
+          external_location: "read_json('./data/samples.json')"
+

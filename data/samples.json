@@ -1,0 +1,7 @@
+{ "experiment_id": 1, "process_id": 1, "sample_id": 1, "time_taken": "2024-10-29 13:00:00" }
+{ "experiment_id": 1, "process_id": 1, "sample_id": 2, "time_taken": "2024-10-29 14:00:00" }
+{ "experiment_id": 1, "process_id": 1, "sample_id": 3, "time_taken": "2024-10-29 14:22:00" }
+{ "experiment_id": 1, "process_id": 2, "sample_id": 1, "time_taken": "2024-10-29 14:32:12" }
+{ "experiment_id": 1, "process_id": 2, "sample_id": 2, "time_taken": "2024-10-29 15:09:01" }
+{ "experiment_id": 1, "process_id": 3, "sample_id": 1, "time_taken": "2024-10-29 16:01:00" }
+{ "experiment_id": 1, "process_id": 3, "sample_id": 2, "time_taken": "2024-10-29 16:05:00" }

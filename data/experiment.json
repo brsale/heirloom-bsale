@@ -1,0 +1,49 @@
+{
+  "experiment_id": 1,
+  "scientist_id": 100,
+  "name": "compare supplier quality",
+  "processes": [
+    {
+      "process_id": 1,
+      "name": "calcination",
+      "equipment_id": 1,
+      "start_time": "2024-08-29 12:00:00",
+      "end_time": "2024-08-29 14:22:00",
+      "inputs": {
+        "material": 2000,
+        "temperature": 881
+      },
+      "outputs": {
+        "material": 1800
+      }
+    },
+    {
+      "process_id": 2,
+      "name": "hydroxylation",
+      "equipment_id": 2,
+      "start_time": "2024-08-29 14:32:12",
+      "end_time": "2024-08-29 15:09:01",
+      "inputs": {
+        "material": 1800,
+        "catalyst": "P450"
+      },
+      "outputs": {
+        "material": 1650
+      }
+    },
+    {
+      "process_id": 3,
+      "name": "carbonation",
+      "equipment_id": 3,
+      "start_time": "2024-08-29 16:01:00",
+      "end_time": "2024-08-29 16:05:00",
+      "inputs": {
+        "material": 1650,
+        "condition1": true
+      },
+      "outputs": {
+        "material": 1200
+      }
+    }
+  ]
+}
