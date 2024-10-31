@@ -15,6 +15,7 @@ rename as (
         experiment_id,
         process ->> '$.process_id' as process_id,
         process ->> '$.name' as process_name,
+        process ->> '$.equipment_id' as equipment_id,
         process ->> '$.start_time' as start_time,
         process ->> '$.end_time' as end_time,
         process -> '$.inputs' ->> '$.material' as input_material,
