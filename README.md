@@ -8,7 +8,7 @@
 
 # ER Diagram
 
-![heirloom_erd.png](Schema ER Diagram)
+[<img src="heirloom_erd.png">]
 
 # Setup
 
